@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    height: 336px;
+    width: 336px;
+}
+
+.columnDiv, .gridDiv{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+}
