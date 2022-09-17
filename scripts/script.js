@@ -42,6 +42,7 @@ button.addEventListener("click", () => {
         div.remove();
     });
     cellNumber = prompt('How many cells?');
+    if (cellNumber > 100) cellNumber = 100;
     initGrid(cellNumber);
 })
 
